@@ -2,9 +2,9 @@
 
 namespace CustomDelegateSpec
 {
-    [DelegateUsage(DelegateUsage.Assert)]
+    [AssertDelegate]
     public delegate void They();
 
-    [DelegateUsage(DelegateUsage.Act)]
+    [ActDelegate]
     public delegate void WhenDoing();
 }

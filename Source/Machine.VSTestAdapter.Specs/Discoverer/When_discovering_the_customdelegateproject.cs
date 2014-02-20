@@ -16,7 +16,7 @@ namespace Machine.VSTestAdapter.Specs.Discoverer
         private static ISpecificationDiscoverer discoverer;
         private static IEnumerable<MSpecTestCase> results;
 
-        private static string CustomDelegateTypeSpec_Type = "When_getting_the_hash_code_of_equal_strings";
+        private static string CustomDelegateTypeSpec_Type = "When_getting_the_hash_code_of_equal_strings_with_custom_assert_delegate";
 
         private Establish context = () =>
         {
